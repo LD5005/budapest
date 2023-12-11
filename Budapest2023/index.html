@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>feega</title>
+    <style>
+       
+@media only screen and (max-width: 768px) {
+    /* I tuoi stili CSS specifici per gli smartphone vanno qui */
+
+    
+
+.container-iti { 
+           
+            width: 87% !important ;      /* o qualsiasi altra larghezza */
+    height: 70% !important ;
+    margin-bottom: 10% !important ;
+    margin-top: 0% !important 
+    }
+
+    
+
+}
+
+
+        html {
+    height: 100%; /* Imposta l'altezza dell'elemento html al 100% della viewport */
+}
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+            height: 100%; /* Imposta l'altezza del body al 100% dell'elemento html */
+        }
+
+
+        .container {
+            width: 85%;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        header {
+            background: #ffffff;
+            color: #333;
+            padding-bottom: 1%;
+            box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+
+        }
+
+        h2 {
+            font-size: 130%;
+            font-style: bold;
+
+        }
+
+        .image-container p {
+            font-style: italic;
+
+        } 
+
+        .main {
+            margin-top: 0px;
+        }
+
+        .main h2, .main p {
+            text-align: center;
+        }
+
+
+        .container-iti {
+            display: flex;
+            
+            margin-top: 0%;
+            background: #ffffff;
+            padding-left: 5%;
+            padding-right: 5%;
+            border-radius: 8px;
+            width: 87%;      /* o qualsiasi altra larghezza */
+    margin: 0 auto;  /* margini automatici a sinistra e a destra */
+    height: 80%;
+    margin-bottom: 10%;
+    margin-top: 16%
+    }
+        .map-container {
+            margin-top: 10px;
+            
+           
+        }
+
+        .legenda-container {
+             flex: 1; /* Assegna lo stesso peso flessibile a entrambi gli elementi */
+    padding: 3%; /* Aggiunge un po' di spazio intorno ai contenuti */
+    margin-right: 0%;
+    
+
+        }
+
+        .legenda-container p {
+            font-style: italic;
+            font-weight: bold;
+            margin-left:45%;
+            margin-top: 2%;
+            
+
+        }
+
+        .map-container p {
+            font-style: italic;
+           
+            margin-left: 15%
+
+        }
+
+
+        .map-container, .legenda.container {
+    flex: 1; /* Assegna lo stesso peso flessibile a entrambi gli elementi */
+    padding: 0px; /* Aggiunge un po' di spazio intorno ai contenuti */
+}
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: #333;
+            color: white;
+            position: relative;
+            bottom: 0%;
+            width: 100%;
+
+        }
+
+         img {
+            width: 9%;   /* Adatta la larghezza dell'immagine al contenitore */
+            height: auto;  /* Mantiene le proporzioni originali dell'immagine */
+            border-radius: 8px; /* Bordi arrotondati per l'immagine */
+        }
+
+        .image-container {
+            max-width: 100%; /* Larghezza massima del contenitore dell'immagine */
+            margin: 10px auto; /* Centra il contenitore */
+            text-align: center;
+            height: 15%;
+        }
+
+       #budafee {
+    width: 200px; /* Larghezza specifica per questa immagine */
+    height: auto; /* Mantiene le proporzioni */
+    display: block; /* Rende l'immagine un blocco (necessario per margin:auto funzioni) */
+    margin: auto; /* Centra l'immagine orizzontalmente */
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border-width: 1px;
+    border-color: #A8B0AF;
+}
+
+            ul.image-legenda {
+                list-style: none; /* Rimuove i bullet points */
+                padding: 0% ;
+                width: 70%;
+                margin-left: 40%;
+                margin-top: %;
+
+            }
+
+            ul.image-legenda li {
+                display: flex; /* Crea un layout flessibile per ogni elemento della lista */
+                align-items: center; /* Centra verticalmente l'immagine con il testo */
+                margin-bottom: 1%; /* Distanza tra gli elementi della lista */
+                margin-right: 0%;
+                
+
+            }
+
+            ul.image-legenda img {
+                margin-right: 2%; /* Distanza tra l'immagine e il testo */
+            }
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1></h1>
+             
+        </div>
+         <img id="budafee" src="budafee.gif" alt="buda">
+    </header>
+
+    <div class="image-container">
+        <h2>100mila palazzi da vedere</h2>
+        <p>Preparati perchè davide sveglia alle 8</p>
+         <img src="rasta.jpg" alt="rasta">
+         <img src="skarra.jpg" alt="skarra">
+         <img src="kao.jpg" alt="kao">
+         <img src="poddino.jpg" alt="poddino">
+         <img src="elias.jpg" alt="elias">
+         <img src="princi.jpg" alt="princi">
+         <img src="pablo.jpg" alt="pablo">
+         <img src="lore.jpg" alt="lore">
+         <img src="gio.jpg" alt="gio">
+         <img src="lallo.jpg" alt="lallo">
+
+    </div>     
+    <div class="container-iti">
+        <div class="map-container">
+            <!-- Qui va inserita la mappa di My Maps -->
+             <iframe src="https://www.google.com/maps/d/embed?mid=1x4bqTAnJ8ciPQYFHNJbO9FCPIbV0GWg&ehbc=2E312F" width="140%" height="90%"></iframe>
+            <p>Skarra c'è anche se non c'è</p>
+
+        </div>  
+        <div class="legenda-container">
+            <p> legenda: </p>
+
+            <ul class="image-legenda">
+                <li><img src="home.jpg" alt="Descrizione 1"> <span>HOME</span></li>
+                <li><img src="cibo.jpg" alt="Descrizione 2"> <span>CIBO e vari</span></li>
+                <li><img src="bere.jpg" alt="Descrizione 3"> <span>BERE</span></li>
+                <li><img src="disco.jpg" alt="Descrizione 3"> <span>DISCO</span></li>
+                <li><img src="fotoverde1.jpg" alt="Descrizione 3"> <span>LUOGHI DA FOTOGRAFARE AL VOLO (tipo piazze, monumenti ecc.) </span></li>
+                <li><img src="fotoverde2.jpg" alt="Descrizione 3"> <span>LUOGHI D'INTERESSE PIU' IMPEGNATIVI (tipo musei e cose del genere)</span></li>
+                <li><img src="terme.jpg" alt="Descrizione 3"> <span> BAGNI TERMALI</span></li>
+                <li><img src="trasporti.jpg" alt="Descrizione 3"> <span>TRASPORTI e altre diavolerie</span></li>
+                <li><img src="shopping.jpg" alt="Descrizione 3"> <span>SHOPPING VARIO (Auchan)</span></li>
+                <li><img src="shopingfoto.jpg" alt="Descrizione 3"> <span>negozietti di fotografia</span></li>
+              
+            </ul>
+       
+        </div>
+     </div>   
+
+     <div id="disqus_thread"></div>
+
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://budapest-feega.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+    <footer>
+        <p>Budapest feega - © 2023</p>
+    </footer>
+
+    <script id="dsq-count-scr" src="//budapest-feega.disqus.com/count.js" async></script>
+
+</body>
+</html>
